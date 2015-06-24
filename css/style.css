@@ -207,7 +207,7 @@ section section {
     background-repeat: repeat;
 }
 .no-video {
-    background-image: url(../images/top.jpg);
+    background-image: url(./images/top.jpg);
 }
 .nobottom-padding {
     padding-bottom: 0;
