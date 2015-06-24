@@ -643,7 +643,7 @@ a.button i {
     vertical-align: bottom;
 }
 .hero {
-    background-image: url(../images/top.jpg);
+    background-image: url(./images/top.jpg);
     position: relative;
     overflow: hidden;
     width: 100%;
