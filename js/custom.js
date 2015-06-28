@@ -463,7 +463,15 @@ if (!Array.prototype.indexOf) {
 
         /* Theme Tabs
         ==================================================================================== */
-        $('.tabs').each(function() {
+        $('.girl-tabs').each(function() {
+            var $tabLis = $(this).find('li');
+            var $tabContent = $(this).next('.tab-content-wrap').find('.tab-content');
+            $tabContent.hide();
+            $tabLis.last().addClass('active').show();
+            $tabContent.first().show();
+        });
+        
+        $('.guy-tabs').each(function() {
             var $tabLis = $(this).find('li');
             var $tabContent = $(this).next('.tab-content-wrap').find('.tab-content');
             $tabContent.hide();
