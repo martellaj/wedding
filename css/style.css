@@ -1536,7 +1536,7 @@ a.button i {
     border-radius: 50%;
 }
 .people-image li {
-    margin: 0 7px;
+    margin: 0 1px;
     list-style: none;
     display: inline-block;
 }
