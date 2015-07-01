@@ -1448,7 +1448,7 @@ a.button i {
     height: 100%;
 }
 .parallax {
-    background-image: url(../images/flowers.jpg);
+    background-image: url(../images/portlandsign.jpg);
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -2941,4 +2941,9 @@ ul.double-angle li:before {
     .baby .hero-inner .date {
         font: 21px/28px 'Playfair Display', serif;
     }
+}
+
+.addressStyle {
+  color: #D9C6B1;
+  margin-bottom: 2px;
 }

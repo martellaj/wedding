@@ -447,13 +447,14 @@ if (!Array.prototype.indexOf) {
                     map: map,
                     icon: markerImages[markers[i][3]],
                     title: markers[i][0],
-                    infoContent: markers[i][4]
+                    infoContent: markers[i][5],
+                    address: markers[i][4]
                 });
 
                 bound.extend(marker.position);
                 google.maps.event.addListener(marker, 'click', function() {
 
-                    infoWindow.setContent('<div class="info_content"><h3>' + this.title + '</h3><p>' + this.infoContent + '</p></div>');
+                    infoWindow.setContent('<div class="info_content"><h3>' + this.title + '</h3><h5 class=\'addressStyle\'>' + this.address + '</h5><p>' + this.infoContent + '<p></div>');
                     infoWindow.open(map, this);
                 });
                 
