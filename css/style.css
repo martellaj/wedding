@@ -643,7 +643,7 @@ a.button i {
     vertical-align: bottom;
 }
 .hero {
-    background-image: url(../images/top.JPG);
+    background-image: url(../images/top2.JPG);
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -1225,7 +1225,7 @@ a.button i {
     z-index: 9;
 }
 #couple .girl {
-    background-image: url(../images/shannon.jpg);
+    background-image: url(../images/shannon3.jpg);
 }
 #couple .boy {
     background-image: url(../images/joe.jpg);
@@ -1448,7 +1448,7 @@ a.button i {
     height: 100%;
 }
 .parallax {
-    background-image: url(../images/portlandsign.jpg);
+    background-image: url(../images/field.jpg);
     position: relative;
     overflow: hidden;
     width: 100%;
