@@ -647,6 +647,7 @@ a.button i {
     position: relative;
     overflow: hidden;
     width: 100%;
+    height:auto;
     padding: 0;
     background-position: center center;
     -webkit-background-size: cover ;
