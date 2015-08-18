@@ -642,6 +642,26 @@ a.button i {
     font-size: 38px;
     vertical-align: bottom;
 }
+
+@media screen and (max-width: 568px)
+ {
+   .hero{
+     background-color: black;
+   position: relative;
+    overflow: hidden;
+    width: 100%;
+    height:auto;
+    padding: 0;
+    background-position: center center;
+    -webkit-background-size: cover ;
+    -moz-background-size: cover ;
+    -o-background-size: cover ;
+    background-size: cover ;
+    background-repeat: no-repeat ;
+    }  
+ }
+@media (min-width: 569px)
+ {
 .hero {
     background-image: url(../images/top2.jpg);
     position: relative;
@@ -656,6 +676,7 @@ a.button i {
     background-size: cover ;
     background-repeat: no-repeat ;
 }
+ }
 .hero.not-mobile, #background-image.not-mobile, .parallax.not-mobile {
     background-attachment: fixed;
 }
