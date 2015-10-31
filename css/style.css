@@ -1520,6 +1520,12 @@ a.button i {
     12.  Important People
 ============================================================ */
 
+#rsvp h3.section-title:before {
+    margin-left: -26px;
+    font-size: 56px;
+    content: "\e002";
+}
+
 #important-people h3.section-title:before {
     margin-left: -26px;
     font-size: 56px;
@@ -1722,6 +1728,12 @@ a.button i {
 #twitter .follow:hover {
     color: #FF8C89;
 }
+
+.rsvp-class {
+      width: 66%;
+      margin: auto;
+      text-align: center;
+    }
 /* =========================================================== 
     15.  Gift Registry 
 ============================================================ */
@@ -2810,6 +2822,7 @@ ul.double-angle li:before {
     .left .box.corner .date {
         right: 35px;
     }
+    
     .timeline .column .box:after, .timeline .column.heart:after {
         display: none;
     }
