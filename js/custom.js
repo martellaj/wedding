@@ -29,7 +29,7 @@ if (!Array.prototype.indexOf) {
         /* Hero height for full and half screen
         ==================================================================================== */
         var windowHeight = $(window).height();
-        $('.hero').height(windowHeight - 80);
+        //$('.hero').height(windowHeight - 80);
         $('.hero.mvisible').height(windowHeight - 136);
 
         $(window).resize(function() {
