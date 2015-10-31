@@ -29,7 +29,13 @@ if (!Array.prototype.indexOf) {
         /* Hero height for full and half screen
         ==================================================================================== */
         var windowHeight = $(window).height();
-        //$('.hero').height(windowHeight - 80);
+        $('.hero').height(windowHeight - 80);
+        
+        if( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+          console.log('ay gurl');
+          $('.hero').height(windowHeight - 500);
+        }
+        
         $('.hero.mvisible').height(windowHeight - 136);
 
         $(window).resize(function() {

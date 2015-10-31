@@ -2766,9 +2766,6 @@ ul.double-angle li:before {
     .hero #countdown {
         display: none;
     }
-    .hero {
-      height: 400px;
-    }
     /* Story */
     
     #story .column {
